@@ -1,0 +1,50 @@
+# Environments & Secrets (NEVER commit .env files)
+.env
+**/.env
+*.env
+!.env.example
+!**/.env.example
+
+# Python Bytecode & Virtual Environments
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyc
+*$py.class
+.venv/
+**/.venv/
+venv/
+env/
+
+# Test & Tool Caches
+.pytest_cache/
+**/.pytest_cache/
+.ruff_cache/
+**/.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ADK & Agents CLI runtime state
+.adk/
+**/.adk/
+.google-agents-cli/
+**/.google-agents-cli/
+deployment_metadata.json.lock
+**/deployment_metadata.json.lock
+.persist_vector_store
+.saved_chats
+
+# Terraform & Credentials
+.terraform/
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.pem
+*-key.json
+credentials*.json
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,19 @@
+{
+  "remote_agent_runtime_id": "projects/157815544219/locations/us-central1/reasoningEngines/3477243181114851328",
+  "deployment_target": "agent_runtime",
+  "is_a2a": true,
+  "language": "python",
+  "agent_directory": "app",
+  "deployment_timestamp": "2026-11-03T14:49:42.626022+00:00",
+  "pending_operation": {
+    "owner_id": "3126a019e1ed4a4ca0596fb6344c7393",
+    "state": "running",
+    "operation_name": "projects/157815544219/locations/us-central1/reasoningEngines/3477243181114851328/operations/3648265664990281728",
+    "project": "qwiklabs-gcp-01-cb06168cab66",
+    "location": "us-central1",
+    "deployment_target": "agent_runtime",
+    "started_at": "2026-11-03T14:53:21.864370+00:00",
+    "owner_pid": 25545,
+    "owner_host": "cs-181779951550-default"
+  }
+}
